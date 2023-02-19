@@ -2,223 +2,255 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="./CSS/mobile.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
 
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" media='screen and (max-width: 768px)' href="./CSS/mobile.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
-
-  <title>NewsGrid | Your News Website</title>
+    <title>Somaiya Voices</title>
 </head>
 
 <body>
-  <nav id="main-nav">
-    <div class="container">
-      <img src="img/voices_white.png" alt="NewsMedia" class="logo">
-      
+    <div class="container-fluid" style="background-color: black;">
+        <div class="row">
+            <div class="col-1">
+                <div class="fa-pull-left">
+                    <img src="img/somaiyatrust.svg" class="img-fluid" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="col-10" align="center">
+                <div class="" text-center>
+                    <img id="voices_logo" class="img-fluid" src="img/Voices White.png" style="align-items: center; width: 200px; height: 100px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="background-color: black;">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OPINIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SPORTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MULTIMEDIA</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-  </nav>
 
-  <header id='showcase'>
-    <div class="container">
-      <div class="showcase-container">
-        <div class="showcase-content">
-          <h1 style="font-size: 65px;">HOT THIS WEEK</h1>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <section id="home-articles" class="py-2">
-    <div class="container">
-      <h2>Editors Picks</h2>
-      <div class="articles-container">
-        <article class="card">
-          <img src="img/articles/ent1.jpg" alt="photo">
-          <div>
-            <div class="category category-ent">
-              Entertainment
+    <header id='showcase'>
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-content">
+                    <h1 style="font-size: 65px;">HOT THIS WEEK</h1>
+                </div>
             </div>
-            <h3>
-              <a href="article.html">Lorem ipsum dolor sit amet.</a>
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet
-              eos! Doloribus molestiae cum accusamus?</p>
-          </div>
-        </article>
-
-        <article class="card bg-dark">
-          <div class="category category-sports">
-            Sports
-          </div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo
-            beatae odio exercitationem vel, sit porro?</p>
-        </article>
-
-        <article class="card">
-          <img src="img/articles/tech1.jpg" alt="photo">
-          <div class="category category-tech">
-            Technology
-          </div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo
-            maiores. Cum ipsa amet quaerat sunt.</p>
-        </article>
-
-        <article class="card">
-          <div class="category category-sports">
-            Sports
-          </div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo
-            maiores. Cum ipsa amet quaerat sunt.</p>
-          <img src="img/articles/sports1.jpg" alt="photo">
-        </article>
-
-        <article class="card">
-          <img src="img/articles/tech2.jpg" alt="photo">
-          <div class="category category-tech">
-            Technology
-          </div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo
-            maiores. Cum ipsa amet quaerat sunt.</p>
-        </article>
-
-        <article class="card bg-primary">
-          <div class="category category-sports">
-            Sports
-          </div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo
-            beatae odio exercitationem vel, sit porro?</p>
-        </article>
-
-        <article class="card">
-          <div>
-            <div class="category category-ent">
-              Entertainment
-            </div>
-            <h3>
-              <a href="article.html">Lorem ipsum dolor sit amet.</a>
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet
-              eos! Doloribus molestiae cum accusamus?</p>
-          </div>
-          <img src="img/articles/ent2.jpg" alt="photo">
-        </article>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="row1">
-        <div class="footer-col">
-          <h4 id="footer-heads">HOME</h4>
-          <div>
-            <h4 id="foot">NEWS</h4>
-            <ul>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Alumni Speak</a></li>
-              <li><a href="#">Student Life</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 id="foot">OPINION</h4>
-            <ul>
-              <li><a href="#">Mindspace</a></li>
-              <li><a href="#">President's Desk</a></li>
-              <li><a href="#">Cornerstone</a></li>
-              <li><a href="#">Conversation</a></li>
-            </ul>
-          </div>
         </div>
+    </header>
 
-        <div class="footer-col">
-          <h4 id="footer-heads">SPORTS</h4>
-          <div>
-            <h4 id="foot">FEATURES</h4>
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Academia</a></li>
-              <li><a href="#">HOS</a></li>
-            </ul>
-          </div>
-         <div>
-          <h4 id="foot">MULTIMEDIA</h4>
-          <ul>
-            <li><a href="#">Images</a></li>
-            <li><a href="#">Event Gallery</a></li>
-          </ul>
-         </div>
-         
-        </div>
-        <div class="footer-col1">
-          <div class="img-container">
-            <div class="img">
-              <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+    <section id="home-articles" class="py-2">
+        <div class="container">
+            <h2>Editors Picks</h2>
+            <div class="articles-container">
+                <article class="card">
+                    <img src="img/articles/ent1.jpg" alt="photo">
+                    <div>
+                        <div class="category category-ent">
+                            Entertainment
+                        </div>
+                        <h3>
+                            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
+                    </div>
+                </article>
+
+                <article class="card bg-dark">
+                    <div class="category category-sports">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
+                </article>
+
+                <article class="card">
+                    <img src="img/articles/tech1.jpg" alt="photo">
+                    <div class="category category-tech">
+                        Technology
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+                </article>
+
+                <article class="card">
+                    <div class="category category-sports">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+                    <img src="img/articles/sports1.jpg" alt="photo">
+                </article>
+
+                <article class="card">
+                    <img src="img/articles/tech2.jpg" alt="photo">
+                    <div class="category category-tech">
+                        Technology
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+                </article>
+
+                <article class="card bg-primary">
+                    <div class="category category-sports">
+                        Sports
+                    </div>
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <div class="category category-ent">
+                            Entertainment
+                        </div>
+                        <h3>
+                            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
+                    </div>
+                    <img src="img/articles/ent2.jpg" alt="photo">
+                </article>
             </div>
-            <div class="text">
-              <h1 style="color: aliceblue;font-size: 30px;">Paris is one of the most magnificient cities in France.</h1>
-            </div>
-          </div>
-          <div>
-            <h4 style="text-align: center; margin-right: 75px;">View Archives</h4>
-        
-            <div style="display: flex; flex-wrap: wrap;">
-              <div style="flex: 0.5;">
-                <ul>
-                  <li><a href="#">watch</a></li>
-                  <li><a href="#">bag</a></li>
-                  <li><a href="#">shoes</a></li>
-                  <li><a href="#">dress</a></li>
-                </ul>
-              </div>
-              <div style="flex: 0.5;">
-                <ul>
-                  <li><a href="#">watch</a></li>
-                  <li><a href="#">bag</a></li>
-                  <li><a href="#">shoes</a></li>
-                  <li><a href="#">dress</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-         
-         
         </div>
-      </div>
-      <div class="row2">
-        <div class="footer-col">
-          <h4 style="text-align: center; margin-right: 35px;">Reach out to us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row1">
+                <div class="footer-col">
+                    <h4 id="footer-heads">HOME</h4>
+                    <div>
+                        <h4 id="foot">NEWS</h4>
+                        <ul>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Alumni Speak</a></li>
+                            <li><a href="#">Student Life</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 id="foot">OPINION</h4>
+                        <ul>
+                            <li><a href="#">Mindspace</a></li>
+                            <li><a href="#">President's Desk</a></li>
+                            <li><a href="#">Cornerstone</a></li>
+                            <li><a href="#">Conversation</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 id="footer-heads">SPORTS</h4>
+                    <div>
+                        <h4 id="foot">FEATURES</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Academia</a></li>
+                            <li><a href="#">HOS</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 id="foot">MULTIMEDIA</h4>
+                        <ul>
+                            <li><a href="#">Images</a></li>
+                            <li><a href="#">Event Gallery</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-col1">
+                    <div class="img-container">
+                        <div class="img">
+                            <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+                        </div>
+                        <div class="text">
+                            <h1 style="color: aliceblue;font-size: 30px;">Paris is one of the most magnificient cities in France.</h1>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 style="text-align: center; margin-right: 75px;">View Archives</h4>
+
+                        <div style="display: flex; flex-wrap: wrap;">
+                            <div style="flex: 0.5;">
+                                <ul>
+                                    <li><a href="#">watch</a></li>
+                                    <li><a href="#">bag</a></li>
+                                    <li><a href="#">shoes</a></li>
+                                    <li><a href="#">dress</a></li>
+                                </ul>
+                            </div>
+                            <div style="flex: 0.5;">
+                                <ul>
+                                    <li><a href="#">watch</a></li>
+                                    <li><a href="#">bag</a></li>
+                                    <li><a href="#">shoes</a></li>
+                                    <li><a href="#">dress</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="row2">
+                <div class="footer-col">
+                    <h4 style="text-align: center; margin-right: 35px;">Reach out to us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 </body>
